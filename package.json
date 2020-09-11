@@ -8,15 +8,15 @@
     "build:dev": "cross-env SERVER_ENV=dev next build",
     "start": "next start"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "./src/**/*.{js,jsx}": [
       "stylelint"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "engines": {
     "npm": ">=6.4.1",
