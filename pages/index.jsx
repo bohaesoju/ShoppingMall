@@ -1,5 +1,8 @@
 const IndexPage = () => {
-    return <div>index</div>;
-}
+    return <div>indexd</div>;
+};
+
+
+
   
 export default IndexPage;
