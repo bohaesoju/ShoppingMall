@@ -1,0 +1,30 @@
+{
+  "name": "shopping-mall",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env SERVER_ENV=local next dev -p 4000",
+    "build": "cross-env SERVER_ENV=local next build && next export",
+    "start": "next start"
+  },
+  "lint-staged": {
+    "./src/**/*.{js,jsx}": [
+      "stylelint"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "engines": {
+    "npm": ">=6.4.1",
+    "node": ">=10.13.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
