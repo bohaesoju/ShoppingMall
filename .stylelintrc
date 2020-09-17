@@ -16,6 +16,7 @@
     }],
     "value-no-vendor-prefix": [true, {
       "ignoreValues": ["box"]
-    }]
+    }],
+    "value-keyword-case": null
   }
 }
