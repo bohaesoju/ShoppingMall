@@ -8,13 +8,15 @@ const TitleH1 = styled.h1`
 `;
 
 const IndexPage = () => {
-  <>
-    <Head>
-      <title>은미문방구</title>
-      <meta name="viewport" content="width=device-width, user-scalable=no" />
-    </Head>
-    <TitleH1>index</TitleH1>
-  </>;
+  return (
+    <>
+      <Head>
+        <title>제다문방구</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+      </Head>
+      <TitleH1>index</TitleH1>
+    </>
+  );
 };
 
 export default IndexPage;
