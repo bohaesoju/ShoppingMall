@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>제다문방구</title>
+        <title>제다문방33333구</title>
         <meta name="viewport" content="width=device-width, user-scalable=no" />
       </Head>
       <TitleH1>index</TitleH1>
