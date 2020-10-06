@@ -1,20 +1,21 @@
 import React from 'react';
 import Head from 'next/head';
-import styled from 'styled-components';
+// import styled from 'styled-components';
+import Header from 'src/components/common/Header';
+import { DocumentManager } from 'src/utils/DocumentManager';
 
-const TitleH1 = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
+// const TitleH1 = styled.h1`
+//   font-size: 50px;
+//   color: ${({ theme }) => theme.colors.primary};
+// `;
 
 const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>제다문방33333구</title>
-        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        {DocumentManager.MOBILE_DEFAULT_HEADER}
       </Head>
-      <TitleH1>index</TitleH1>
+      <Header />
     </>
   );
 };
