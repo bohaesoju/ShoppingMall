@@ -3,7 +3,7 @@ import * as Styled from './style';
 
 const Header = () => (
   <Styled.Top>
-    <Styled.LeftTitle>쇼핑리스트23</Styled.LeftTitle>
+    <Styled.LeftTitle>쇼핑리스트234</Styled.LeftTitle>
   </Styled.Top>
 );
 
