@@ -21,7 +21,7 @@ export const GlobalWebStyle = createGlobalStyle`
 
   body {
     font-family: ${defaultFontFamilyName}, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.3333333;
     letter-spacing: -0.5px;
     background: ${ColorPalette.GRAY_EEE};
@@ -78,6 +78,7 @@ export const GlobalWebStyle = createGlobalStyle`
       color: ${ColorPalette.GRAY_333};
       display: flex;
       flex-direction: 'column';
+      padding-top: 50px;
     }
   }
 `;
