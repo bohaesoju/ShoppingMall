@@ -23,9 +23,10 @@ export const ShoppingMallTitle = styled.p`
 export const MenuWrap = styled.ul`
   position: absolute;
   right: 10px;
+  top: 0;
 `;
 
-export const MenuList = styled.ul`
+export const MenuList = styled.li`
   display: inline-block;
   margin-left: 5px;
 `;

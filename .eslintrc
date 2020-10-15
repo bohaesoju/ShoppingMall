@@ -39,6 +39,7 @@
     "jsx-quotes": "off",
     "react/jsx-tag-spacing": "off",
     "import/order": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "react/destructuring-assignment": "off",
   }
 }

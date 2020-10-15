@@ -5,8 +5,9 @@ export const Wrapper = styled.div`
   padding: 10px;
 `;
 
-// export const ProductListWrap = styled.ul`
-// `;
+export const ProductListWrap = styled.ul`
+  width: 100%;
+`;
 
 export const CardBox = styled.li`
   padding: 10px;
